@@ -14,10 +14,13 @@ public:
                 cnt2=1;
                 ele2=nums[i];
             }
-            else if(ele1==nums[i])cnt1++;
-            else if(ele2==nums[i])cnt2++;
-            else{cnt1--;
-            cnt2--;
+            else if(ele1==nums[i])
+            cnt1++;
+            else if(ele2==nums[i])
+            cnt2++;
+            else{
+                cnt1--;
+                cnt2--;
             }
         }
         vector<int>result;
